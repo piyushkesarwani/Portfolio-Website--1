@@ -1,0 +1,447 @@
+*{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	background-color: #3b3c3d;
+}
+.navbar{
+	background-color: #3b3c3d;
+	height: 65px;
+}
+
+.navbar ul{
+	display: flex;
+	justify-content: center;
+	padding: 22px 15px 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+    margin: 0px 95px 0px 0px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li a:hover {
+	color: #cc705e;
+}
+
+.main {
+	background-color: #3b3c3d;
+	height: 90vh;
+	/*display: flex;*/
+}
+
+.main-items {
+	font-weight: 2px;
+	padding: 60px 40px 40px;
+}
+
+.about {
+	padding: 15px;
+}
+
+.hello {
+	font-size: 2.7rem;
+	font-family: 'Anek Telugu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main-items h2 {
+	font-size: 3rem;
+	color: white;
+	margin-bottom: -26px;
+}
+
+.main-items h1 {
+	color: #211c1b;
+	margin-bottom: -26px;
+}
+
+.main-items p {
+	font-size: 1.7rem;
+	font-weight: 13px;
+	color: white;
+}
+
+.main-img img {
+	height: 90vh;
+	padding-left: 30px;
+	float: right;
+}
+
+.button {
+	margin-left: 60px;
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: #cc705e;
+	padding: 12px;
+	cursor: pointer;
+}
+
+.button label {
+	font-family: 'DynaPuff', cursive;
+	font-size: 20px;
+	background-color: #cc705e;
+	color: white;
+	cursor: pointer;
+}
+
+.btn1 {
+	margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #cc705e;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.btn1 a {
+	font-family: 'DynaPuff', cursive;
+	font-size: 20px;
+	background-color: #cc705e;
+	color: white;
+	text-decoration: none;
+}
+
+/*.button:hover {
+	background-color: white;
+}
+
+.button label:hover {
+	background-color: white;
+	color: blue;
+}
+
+.btn1:hover {
+	background-color: white;
+	color: blue;
+}*/
+
+.socialmedia p {
+	padding-top: 40px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-size: 2.2rem;
+	font-family: 'ComicSans';
+	background-color: #3b3c3d;
+	color: white;
+}
+
+.socialmedia {
+	display: flex;
+}
+
+.socialmedia img {
+	display: flex;
+    width: 4vw;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.welcome {
+	text-align: center;
+	margin: 13px;
+}
+
+.contactform {
+	margin: auto;
+	width: 30%;
+	border: 2px solid green;
+	padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.contactform input {
+	padding: 5px;
+    margin: 10px;
+    width: 200px;
+    color: white;
+}
+
+.contactform label {
+	font-size: 20px;
+	font-family: 'Sansarif';
+	color: white;
+}
+
+#emailHelp {
+	margin: 6px 0px 6px;
+	font-family: 'Sansarif';
+}
+
+#exampleCheck1 {
+	margin: -94px;
+}
+
+.form-check-label {
+	margin: 0px 10px 0px;
+}
+
+.btn-primary {
+	margin: 20px 0px 0px;
+	background-color: #cc705e;
+	color: white;
+	border: 1px solid black;
+	padding: 10px 20px 10px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background-color: white;
+	color: #cc705e;
+}
+
+.bloghead {
+	text-align: center;
+	font-family: 'Sansarif';
+	margin: 20px;
+}
+
+.blogmain {
+	padding: 20px;
+}
+
+.blogitems {
+	border: 1px solid black;
+}
+.blogitems h2{
+	margin: 10px;
+}
+
+.blogitems p{
+	margin: 10px;
+}
+
+.btn-blog {
+	margin: 5px;
+}
+
+.blogitems img {
+	float: right;
+	height: 100px;
+	width: 100px;
+}
+
+.heading {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Sansarif';
+	margin: 15px;
+}
+
+.servicesitems {
+	margin: 15px;
+	padding: 15px;
+	width: 33%;
+}
+
+.servicesbtn {
+	background-color: #cc705e;
+	border: 1px solid white;
+	margin: 15px 5px 0px;
+	padding: 10px;
+}
+.servicesbtn a{
+	color: white;
+	background-color: #cc705e;
+	text-decoration: none;
+}
+
+.card {
+	border: 2px solid #cc705e;
+	width: 18rem;
+}
+
+.card img {
+	margin-bottom: 10px;
+    width: 18rem;
+    height: 200px;
+    border: 1px solid #cc705e;
+}
+
+.card-title {
+	margin: 10px 5px auto;
+
+}
+
+.card-text {
+	margin: 10px 5px auto;
+}
+.mainservices {
+	display: flex;
+	width: 100%;
+	margin-left: 30px;
+}
+
+.mainservices2 {
+	display: flex;
+	width: 100%;
+	margin-left: 30px;
+}
+
+.aboutheading {
+	color: #cc705e;
+	font-size: 2.6rem;
+}
+
+.aboutitems {
+	width: 50%;
+	margin: 20px;
+	padding: 10px;
+}
+
+.aboutimg img {
+	float: right;
+	margin-right: 100px;
+	border: 1px solid aqua;
+}
+
+.aboutname h3 {
+	display: inline;
+	font-family: 'Sansarif';
+}
+
+.aboutname p{
+	margin-top: 10px;
+	font-family: 'Sansarif';
+}
+
+.aboutname {
+	margin-bottom: 10px;
+}
+
+.name-contact {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.city-email {
+	display: flex;
+}
+
+.contact {
+	margin-left: 250px;
+}
+
+.email {
+	margin-left: 260px;
+}
+
+.aboutcontact {
+	margin: 30px 0px 30px;
+}
+
+.abouteducation p {
+	padding: 20px 0px 25px;
+	font-family: 'TimesNewRoman';
+}
+
+.aboutsocialicons img {
+	width: 60px;
+	height: 60px;
+	border: 1px solid white;
+}
+
+.aboutsocialicons {
+	padding-left: 300px;
+}
+
+.main-skills {
+	display: flex;
+	margin: 30px 30px 0px;
+	padding: 25px;
+}
+
+.main-skills h3 {
+	color: white;
+}
+
+.skills-right {
+	margin-left: 38%;
+}
+
+.skills-left {
+	margin-left: 10%;
+}
+
+.skill-1, .skill-2, .skill-3, .skill-4 {
+	margin-bottom: 40px;
+}
+
+.color-bar {
+	margin-top: 10px;
+	width: 250%;
+    height: 15%;
+    background-color: #cc705e;
+    color: white;
+    padding: 5px;
+}
+
+.bar-80 {
+	margin-top: 10px;
+	width: 200%;
+    height: 15%;
+    background-color: #cc705e;
+}
+
+.bar-85 {
+	margin-top: 10px;
+	width: 220%;
+    height: 15%;
+    background-color: #cc705e;
+}
+
+.bar-90 {
+	margin-top: 10px;
+	width: 250%;
+    height: 15%;
+    background-color: #cc705e;
+}
+
+.bar-95 {
+	margin-top: 10px;
+	width: 290%;
+    height: 15%;
+    background-color: #cc705e;
+}
+
+.contact-footer div {
+	width: 33%;
+	padding: 20px;
+}
+
+.contact-footer {
+	height: 50%;
+}
+
+.lb {
+	margin-left: 90px;
+	margin-bottom: 50px;
+}
+
+.contact-footer label {
+	color: black;
+	background-color: yellow;
+	font-size: 20px;
+}
+
+.email {
+	padding-left: 30px;
+}
+
+.btn {
+	background-color: #cc705e;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
